@@ -3,7 +3,7 @@ Data Sources for each graph and table
 
 This file details the sources of the data underlying all the figures and tables from the pA-QTL analysis.
 
--   **Figure 1:** pA annotations are from [polyA DB version 3](http://exon.umdnj.edu/polya_db/). Genomic sequences were extracted from the hg19 fasta file and the GTEx V7 variant annotation file. Both can be downloaded from [GTEx](https://gtexportal.org/home/datasets).
+-   **Figure 1:** pA annotations are from [polyA DB version 3](http://exon.umdnj.edu/polya_db/). Genomic sequences were extracted from the hg19 fasta file and the GTEx v7 variant annotation file. Both can be downloaded from [GTEx](https://gtexportal.org/home/datasets).
 
 -   **Figure 2:** For box plots: [pAUI\_per\_sample.xlsx](https://github.com/ElkonLab/pA_QTLs/blob/master/pAUI_per_sample.xlsx) provides both genotype and pAUI index information. p-values are in [**Table S3**](https://github.com/ElkonLab/pA_QTLs/blob/master/Supplementary_Tables/Table_S3.xlsx). UCSC coverage plots were produced using from [GTEx](https://gtexportal.org/home/datasets) BAM files.
 
@@ -29,10 +29,10 @@ This file details the sources of the data underlying all the figures and tables 
 
 -   **Figure S6:** See [MASH.xlsx](https://github.com/ElkonLab/pA_QTLs/blob/master/MASH.xlsx) for lfsr values, posterior means and SDs. Caviar was run with posterior mean/ posterior SD, and LDs calculated from [GTEx](https://gtexportal.org/home/datasets) VCF file.
 
--   **Table S1:** pA annotations are from [polyA DB version 3](http://exon.umdnj.edu/polya_db/). Genomic sequences were extracted from the hg19 fasta file and the GTEx V7 variant annotation file. Both can be downloaded from [GTEx](https://gtexportal.org/home/datasets).
+-   **Table S1:** pA annotations are from [polyA DB version 3](http://exon.umdnj.edu/polya_db/). Genomic sequences were extracted from the hg19 fasta file and the GTEx v7 variant annotation file. Both can be downloaded from [GTEx](https://gtexportal.org/home/datasets).
 
 -   **Table S2:** Data according to [GTEx](https://gtexportal.org/home/datasets).
 
 -   **Table S3:** For each tissue, FastQTL input was the pAUI indexes, [GTEx](https://gtexportal.org/home/datasets) VCF file and [covariats (from GTEx)](https://gtexportal.org/home/datasets) for the tissues. pAUI indexes per pA site per sample are on [pAUI\_per\_sample.xlsx](https://github.com/ElkonLab/pA_QTLs/blob/master/pAUI_per_sample.xlsx). For credible set identification, caviar was run with t-scores input from [FastQTL\_PAS\_SNPs.xlsx](https://github.com/ElkonLab/pA_QTLs/blob/master/FastQTL_PAS_SNPs.xlsx) and LDs calculated from [GTEx](https://gtexportal.org/home/datasets) VCF file. eQTL data is from [GTEx](https://gtexportal.org/home/datasets). For GWAS columns, see [**TableS4**](https://github.com/ElkonLab/pA_QTLs/blob/master/Supplementary_Tables/Table_S4.xlsx) for references and links for downloading the summary statistics.
 
--   **Table S5:** A. Distal pA usage indexes (PDUI) for 3'UTRs are from (APA atlas)\[<https://hanlab.uth.edu/apa/>\]. pA-QTL analysis output data is in [FastQTL\_3UTRs.xlsx](https://github.com/ElkonLab/pA_QTLs/blob/master/FastQTL_3UTRs.xlsx). For identification of GUGU variants, pA annotations are from [polyA DB version 3](http://exon.umdnj.edu/polya_db/). Genomic sequences were extracted from the hg19 fasta file and GTEx variants file. both can be downloaded from [GTEx](https://gtexportal.org/home/datasets).
+-   **Table S5:** A. Distal pA usage indexes (PDUI) for 3'UTRs are from [APA atlas](https://hanlab.uth.edu/apa/). pA-QTL analysis output data is in [FastQTL\_3UTRs.xlsx](https://github.com/ElkonLab/pA_QTLs/blob/master/FastQTL_3UTRs.xlsx). For identification of GUGU variants, pA annotations are from [polyA DB version 3](http://exon.umdnj.edu/polya_db/). Genomic sequences were extracted from the hg19 fasta file and GTEx variants file. both can be downloaded from [GTEx](https://gtexportal.org/home/datasets).
